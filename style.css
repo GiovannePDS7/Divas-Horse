@@ -7,7 +7,9 @@
 
 main {
     height: 100vh;
-    background: #b43737;
+    background: url('./assets/Fundo.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     width: 100%;
     display: flex;
     align-items: center;
@@ -15,15 +17,14 @@ main {
 }
 
 #containerInicial {
-    height: 100%;
+    height: 45%;
     width: 100%;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-direction: column;
 }
 
 #containerDadosCavalo {
-    height: 70%;
     width: 60%;
 }
 
@@ -42,10 +43,60 @@ main {
     justify-content: space-around;
     flex-direction: column;
     background: #cabcbc;
-    height: 50%;
     width: 40%;
 }
 
-.containerIpt{
+.containerIpt {
     flex-direction: column;
 }
+
+
+#btnIniciar {
+    all: unset;
+    color: #fff;
+    height: 7.5vh;
+    background: #A63F00;
+    width: 14vw;
+    border-radius: 10px;
+    font-size: 1.3vw;
+    font-family: "Righteous", sans-serif;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerFeno {
+    height: 80%;
+    width: 100%;
+}
+
+#feno1 {
+    float: left;
+    transform: translateY(10%);
+    width: 4.2vw;
+}
+
+#containerFeno1 {
+    margin-right: 4vw;
+    margin-top: 2.5vw;
+}
+
+#containerFeno2 {
+    margin-left: 3.5vw;
+    margin-bottom: 2.5vw;
+}
+
+#feno2 {
+    width: 4.2vw;
+    transform: rotate(45deg);
+    transform: translateY(-25%);
+    float: right;
+
+}
+#Logo{
+    width: 30vw;
+}
+
+/* #Fundo {} */
